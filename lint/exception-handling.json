@@ -1,0 +1,12 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "options": {
+    "typeAware": true
+  },
+  "jsPlugins": [{ "name": "exception-handling", "specifier": "eslint-plugin-exception-handling" }],
+  "rules": {
+    "exception-handling/might-throw": "error",
+    "exception-handling/throw-error": "error",
+    "exception-handling/use-error-cause": "error"
+  }
+}

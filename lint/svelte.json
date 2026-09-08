@@ -1,0 +1,38 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "options": {
+    "typeAware": true
+  },
+  "jsPlugins": [{ "name": "svelte", "specifier": "eslint-plugin-svelte" }],
+  "rules": {
+    "svelte/comment-directive": "error",
+    "svelte/no-at-debug-tags": "error",
+    "svelte/no-at-html-tags": "error",
+    "svelte/no-dom-manipulating": "error",
+    "svelte/no-dupe-else-if-blocks": "error",
+    "svelte/no-dupe-on-directives": "error",
+    "svelte/no-dupe-style-properties": "error",
+    "svelte/no-dupe-use-directives": "error",
+    "svelte/no-inner-declarations": "error",
+    "svelte/no-inspect": "error",
+    "svelte/no-not-function-handler": "error",
+    "svelte/no-object-in-text-mustaches": "error",
+    "svelte/no-raw-special-elements": "error",
+    "svelte/no-reactive-functions": "error",
+    "svelte/no-reactive-literals": "error",
+    "svelte/no-reactive-reassign": "error",
+    "svelte/no-svelte-internal": "error",
+    "svelte/no-unknown-style-directive-property": "error",
+    "svelte/no-unnecessary-state-wrap": "error",
+    "svelte/no-unused-props": "error",
+    "svelte/no-unused-svelte-ignore": "error",
+    "svelte/no-useless-children-snippet": "error",
+    "svelte/no-useless-mustaches": "error",
+    "svelte/prefer-writable-derived": "error",
+    "svelte/require-each-key": "error",
+    "svelte/require-event-dispatcher-types": "error",
+    "svelte/system": "error",
+    "svelte/valid-each-key": "error",
+    "svelte/valid-prop-names-in-kit-pages": "error"
+  }
+}

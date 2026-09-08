@@ -1,0 +1,16 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "options": {
+    "typeAware": true
+  },
+  "jsPlugins": [
+    {
+      "name": "simple-import-sort",
+      "specifier": "eslint-plugin-simple-import-sort"
+    }
+  ],
+  "rules": {
+    "simple-import-sort/exports": "warn",
+    "simple-import-sort/imports": "warn"
+  }
+}

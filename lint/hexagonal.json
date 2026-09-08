@@ -1,0 +1,12 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "options": {
+    "typeAware": true
+  },
+  "jsPlugins": [
+    { "name": "hexagonal-architecture", "specifier": "eslint-plugin-hexagonal-architecture" }
+  ],
+  "rules": {
+    "hexagonal-architecture/enforce": ["error"]
+  }
+}

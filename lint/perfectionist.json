@@ -1,0 +1,31 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "options": {
+    "typeAware": true
+  },
+  "jsPlugins": [{ "name": "perfectionist", "specifier": "eslint-plugin-perfectionist" }],
+  "rules": {
+    "perfectionist/sort-array-includes": "error",
+    "perfectionist/sort-classes": "error",
+    "perfectionist/sort-decorators": "error",
+    "perfectionist/sort-enums": "error",
+    "perfectionist/sort-export-attributes": "error",
+    "perfectionist/sort-exports": "off",
+    "perfectionist/sort-heritage-clauses": "error",
+    "perfectionist/sort-import-attributes": "error",
+    "perfectionist/sort-imports": "off",
+    "perfectionist/sort-interfaces": "error",
+    "perfectionist/sort-intersection-types": "error",
+    "perfectionist/sort-jsx-props": "error",
+    "perfectionist/sort-maps": "error",
+    "perfectionist/sort-modules": "error",
+    "perfectionist/sort-named-exports": "error",
+    "perfectionist/sort-named-imports": "off",
+    "perfectionist/sort-object-types": "error",
+    "perfectionist/sort-objects": "error",
+    "perfectionist/sort-sets": "error",
+    "perfectionist/sort-switch-case": "error",
+    "perfectionist/sort-union-types": "error",
+    "perfectionist/sort-variable-declarations": "error"
+  }
+}
