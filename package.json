@@ -1,0 +1,22 @@
+{
+  "name": "v7w7r-jslib",
+  "version": "0.0.1",
+  "description": "v7w7r javascript utilities",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor7w7r/v7w7r-jslib.git"
+  },
+  "keywords": [
+    "javascript",
+    "utilities"
+  ],
+  "scripts": {
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check"
+  },
+  "author": "victor7w7r",
+  "license": "MIT",
+  "files": [ ]
+}
