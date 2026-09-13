@@ -2,6 +2,7 @@
   "name": "v7w7r-jslib",
   "version": "0.0.1",
   "description": "v7w7r javascript utilities",
+  "type": "module",
   "keywords": [
     "javascript",
     "utilities"
@@ -13,11 +14,12 @@
     "url": "git+https://github.com/victor7w7r/v7w7r-jslib.git"
   },
   "files": [
-    "lint"
+    "lint",
+    "fmt"
   ],
   "scripts": {
-    "lint": "oxlint",
-    "lint:fix": "oxlint --fix",
+    "lint": "oxlint -f stylish",
+    "lint:fix": "oxlint -f stylish --fix",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check"
   },
@@ -27,16 +29,20 @@
     "eslint-plugin-functional": "^10.0.0",
     "eslint-plugin-hexagonal-architecture": "^1.0.3",
     "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-math": "^0.13.1",
     "eslint-plugin-perfectionist": "^5.11.0",
+    "eslint-plugin-security": "^4.0.1",
     "eslint-plugin-simple-import-sort": "^14.0.0",
-    "eslint-plugin-sonarjs": "^4.2.0",
+    "eslint-plugin-sonarjs": "4.2.0",
     "eslint-plugin-svelte": "^3.23.0",
     "eslint-plugin-tailwindcss": "^4.4.0",
     "eslint-plugin-toplevel": "^1.2.0",
     "eslint-plugin-vue": "^10.11.0",
     "eslint-plugin-wc": "^3.1.0",
     "oxfmt": "^0.67.0",
-    "oxlint": "^1.82.0"
+    "oxlint": "1.82.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "typescript": "6.0.3"
   }
 }
