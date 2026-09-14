@@ -9,7 +9,7 @@
     "moduleResolution": "Bundler",
     "outDir": "./dist",
     "resolveJsonModule": true,
-    "rootDir": ".",
+    "rootDir": "./src",
     "skipLibCheck": true,
     "target": "ESNext"
   },

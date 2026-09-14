@@ -1,4 +1,4 @@
-export { fmtConfig } from './fmt/oxc'
+export { fmtConfig } from './fmt/oxc.js'
 export {
 	all,
   astro,
@@ -20,4 +20,4 @@ export {
 	unicorn,
 	vue,
   wc
-} from './lint/index'
+} from './lint/index.js'
