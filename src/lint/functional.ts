@@ -1,0 +1,21 @@
+import { defineConfig } from 'oxlint'
+
+export default defineConfig({
+  options: { typeAware: true },
+  jsPlugins: [
+    { 'name': 'functional', 'specifier': 'eslint-plugin-functional' }
+  ],
+  rules: {
+    'functional/functional-parameters': 'error',
+    'functional/immutable-data': 'error',
+    'functional/no-classes': 'error',
+    'functional/no-let': 'error',
+    'functional/no-throw-statements': 'error',
+    'functional/no-try-statements': 'error',
+    'functional/prefer-immutable-types': 'off',
+    'functional/prefer-property-signatures': 'error',
+    'functional/prefer-tacit': 'warn',
+    'functional/readonly-type': 'error',
+    'functional/type-declaration-immutability': 'error'
+  }
+})

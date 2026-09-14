@@ -1,0 +1,29 @@
+import { defineConfig } from 'oxlint'
+
+export default defineConfig({
+  options: { typeAware: true },
+  plugins: ['import'],
+  rules: {
+    //'import/no-import-module-exports': 'error',
+    //'import/no-unresolved': 'error',
+    //'import/no-unused-modules': 'warn',
+    //'import/no-useless-path-segments': 'error',
+    //'import/order': 'off'
+    'import/default': 'error',
+    'import/export': 'error',
+    'import/exports-last': 'error',
+    'import/named': 'error',
+    'import/namespace': 'error',
+    'import/no-absolute-path': 'error',
+    'import/no-amd': 'error',
+    'import/no-commonjs': 'error',
+    'import/no-duplicates': 'warn',
+    'import/no-empty-named-blocks': 'error',
+    'import/no-mutable-exports': 'error',
+    'import/no-named-as-default': 'warn',
+    'import/no-named-as-default-member': 'warn',
+    'import/no-namespace': 'error',
+    'import/no-nodejs-modules': 'error',
+    'import/no-self-import': 'error'
+  }
+})
