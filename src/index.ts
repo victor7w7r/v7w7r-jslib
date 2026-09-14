@@ -1,16 +1,23 @@
 export { fmtConfig } from './fmt/oxc'
 export {
-  all,
+	all,
+  astro,
   deMorgan,
-  functional,
+	functional,
+  hexagonal,
   importRules,
   math,
   perfectionist,
-  promise,
+	promise,
+  recommended,
   security,
   simpleImportSort,
-  sonar,
+	sonar,
+	svelte,
+  tailwindcss,
   toplevel,
   typescript,
-  unicorn
+	unicorn,
+	vue,
+  wc
 } from './lint/index'
