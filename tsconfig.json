@@ -1,16 +1,18 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
+    "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "noEmit": true,
+    "outDir": "./dist",
     "resolveJsonModule": true,
+    "rootDir": ".",
     "skipLibCheck": true,
     "target": "ESNext"
   },
+  "include": ["src/**/*"],
   "extends": "./tsconfig.app.json"
 }
