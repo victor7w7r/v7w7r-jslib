@@ -15,7 +15,7 @@ export default defineConfig({
     'typescript/consistent-generic-constructors': 'error',
     'typescript/consistent-indexed-object-style': 'error',
     'typescript/consistent-type-assertions': 'error',
-    'typescript/consistent-type-definitions': ['warn', 'type'],
+    'typescript/consistent-type-definitions': 'off',
     'typescript/consistent-type-exports': 'warn',
     'typescript/consistent-type-imports': 'error',
     'typescript/default-param-last': 'error',

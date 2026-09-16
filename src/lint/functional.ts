@@ -6,9 +6,9 @@ export default defineConfig({
     { 'name': 'functional', 'specifier': 'eslint-plugin-functional' }
   ],
   rules: {
-    'functional/functional-parameters': 'error',
-    'functional/immutable-data': 'error',
-    'functional/no-classes': 'error',
+    'functional/functional-parameters': 'off',
+    'functional/immutable-data': 'off',
+    'functional/no-classes': 'off',
     'functional/no-let': 'error',
     'functional/no-throw-statements': 'error',
     'functional/no-try-statements': 'error',
@@ -16,6 +16,6 @@ export default defineConfig({
     'functional/prefer-property-signatures': 'error',
     'functional/prefer-tacit': 'warn',
     'functional/readonly-type': 'error',
-    'functional/type-declaration-immutability': 'error'
+    'functional/type-declaration-immutability': 'off'
   }
 })

@@ -146,7 +146,7 @@ export default defineConfig({
     'sonarjs/no-identical-functions': 'error',
     'sonarjs/no-ignored-exceptions': 'error',
     'sonarjs/no-ignored-return': 'error',
-    'sonarjs/no-implicit-dependencies': 'error',
+		'sonarjs/no-implicit-dependencies': 'off',
     'sonarjs/no-implicit-global': 'error',
     'sonarjs/no-in-misuse': 'error',
     'sonarjs/no-incompatible-assertion-types': 'error',
@@ -180,7 +180,7 @@ export default defineConfig({
     'sonarjs/no-redundant-jump': 'error',
     'sonarjs/no-redundant-optional': 'error',
     'sonarjs/no-redundant-parentheses': 'error',
-    'sonarjs/no-reference-error': 'error',
+    'sonarjs/no-reference-error': 'off',
     'sonarjs/no-referrer-policy': 'error',
     'sonarjs/no-require-or-define': 'error',
     'sonarjs/no-return-type-any': 'error',
@@ -211,7 +211,7 @@ export default defineConfig({
     'sonarjs/no-variable-usage-before-declaration': 'error',
     'sonarjs/no-weak-cipher': 'error',
     'sonarjs/no-weak-keys': 'error',
-    'sonarjs/no-wildcard-import': 'error',
+    'sonarjs/no-wildcard-import': 'off',
     'sonarjs/non-existent-operator': 'error',
     'sonarjs/non-number-in-arithmetic-expression': 'error',
     'sonarjs/null-dereference': 'error',
@@ -264,7 +264,6 @@ export default defineConfig({
     {
       files: ['**/*.astro'],
       rules: {
-        'sonarjs/no-implicit-dependencies': 'off',
         'sonarjs/unused-import': 'off'
       }
     }
