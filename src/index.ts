@@ -18,6 +18,5 @@ export {
   toplevel,
   typescript,
 	unicorn,
-	vue,
   wc
 } from './lint/index.js'
