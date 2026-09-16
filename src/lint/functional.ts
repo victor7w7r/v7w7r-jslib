@@ -17,5 +17,13 @@ export default defineConfig({
     'functional/prefer-tacit': 'warn',
     'functional/readonly-type': 'error',
     'functional/type-declaration-immutability': 'off'
-  }
+  },
+  overrides: [
+    {
+      files: ['**/*.svelte'],
+      rules: {
+        'functional/no-let': 'off',
+      }
+    }
+  ]
 })

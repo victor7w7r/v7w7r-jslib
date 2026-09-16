@@ -146,7 +146,7 @@ export default defineConfig({
     'sonarjs/no-identical-functions': 'error',
     'sonarjs/no-ignored-exceptions': 'error',
     'sonarjs/no-ignored-return': 'error',
-		'sonarjs/no-implicit-dependencies': 'off',
+    'sonarjs/no-implicit-dependencies': 'off',
     'sonarjs/no-implicit-global': 'error',
     'sonarjs/no-in-misuse': 'error',
     'sonarjs/no-incompatible-assertion-types': 'error',
@@ -262,7 +262,7 @@ export default defineConfig({
   },
   overrides: [
     {
-      files: ['**/*.astro'],
+      files: ['**/*.astro', '**/*.svelte'],
       rules: {
         'sonarjs/unused-import': 'off'
       }
