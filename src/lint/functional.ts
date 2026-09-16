@@ -22,9 +22,8 @@ export default defineConfig({
     {
       files: ['**/*.svelte'],
       rules: {
-        'functional/no-let': 'off',
-        'functional/no-toplevel-let': 'off'
-      }
-    }
+        'functional/no-let': 'off'
+			}
+		}
   ]
 })

@@ -6,5 +6,11 @@ export default defineConfig({
   rules: {
     'toplevel/no-toplevel-let': 'warn',
     'toplevel/no-toplevel-var': 'error'
-  }
+  },
+  overrides: [
+    {
+      files: ['**/*.svelte'],
+      rules: { 'toplevel/no-toplevel-let': 'off' }
+    }
+  ]
 })
