@@ -8,7 +8,6 @@ import math from './math.js'
 import perfectionist from './perfectionist.js'
 import promise from './promise.js'
 import security from './security.js'
-import simpleImportSort from './simple-import-sort.js'
 import sonar from './sonar.js'
 import toplevel from './toplevel.js'
 import typescript from './typescript.js'
@@ -26,7 +25,6 @@ export default defineConfig({
     perfectionist,
     promise,
     security,
-    simpleImportSort,
     sonar,
     toplevel,
     typescript,
