@@ -11,7 +11,6 @@ export {
 	promise,
   recommended,
   security,
-  simpleImportSort,
 	sonar,
 	svelte,
   tailwindcss,
